@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FoodTrace ERP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <h1>FoodTrace</h1>
+  <nav id="nav">
+    <button data-v="dashboard" class="on">Dashboard</button>
+    <button data-v="lots">Ingredient lots</button>
+    <button data-v="batches">Production batches</button>
+    <button data-v="shipments">Shipments</button>
+    <button data-v="trace">Trace &amp; recall</button>
+  </nav>
+</aside>
+<main>
+  <div id="msg" role="status"></div>
+  <div id="view"></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
